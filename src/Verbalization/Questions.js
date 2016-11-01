@@ -16,6 +16,6 @@ var answers = {
   2: `Closure is when an outer function has access to the values of an inner function even after the inner function has returned. An example might be to push the result of a function to an array so the outer function may do something with it.`,
   3: `You can check if an object is an array or not with Array.isArray(value). It's a native method on the Array constructor.`,
   4: `Hoisting is where a function or variable declared is hoited to the top of the current scope. That being inside of a function or perhaps the global scope. It's important because values in JavaScript need to be properly declared when one would need access of them. Most variables are declared at the top of the scope for this reason.`,
-  5: ``
+  5: ` '=' is for assignment in JavaScript. x = 5 would assign the value of 5 to x. '==' and '===' are of a different nature and are for evaluation. x == 5 would evaluate true. x == '5' would also evaluate to true as x === '5' would be false. '==' attempts type coercsion to evaluate left and right as the same type of value as '===' known as strict equals does not.`
 }
 
